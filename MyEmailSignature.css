@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #ded5fce0;
+  }
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.salesforceLogo {
+    left: 112px;
+    top: 20px;
+    position: relative;
+}
+
+.MyName {
+    left: 12rem;
+    top: 14rem;
+    position: relative;
+    font-family: serif;
+    font-size: 25px;
+    color: white;
+}
+
+.card {
+    background: linear-gradient(90deg, #DDD4FF 0%, #9290be 46%, #DDD4FF 100%);
+	width: 80%;
+    height: 20rem;
+	box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
+	display: flex;
+	flex-direction: row;
+    
+}
+
+.card__left .cardDesignLogo > img {
+    margin-left: -200px;
+	margin-top: 50px;
+}
+
+.card__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card__right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.cardPhone {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+  
+.cardPhone .phone {
+    width: 20px;
+    height: 20px;
+}
+
+.cardEmail {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.cardEmail .email {
+    width: 20px;
+    height: 20px;
+}
+
+.cardAddress {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.cardAddress .address {
+    width: 20px;
+    height: 20px;
+}
+
+.cardLinkedin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.cardLinkedin .linkedin {
+    width: 20px;
+    height: 20px;
+}
+
+path {
+    fill: #fff;
+}
+
+svg {
+    margin-right: 10px;
+}
